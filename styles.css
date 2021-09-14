@@ -1,0 +1,10 @@
+body{
+    background:rgb(75, 175, 117);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1{
+    color:rgb(100, 119, 138);
+    text-align: center;
+    text-shadow: black 1px 1px;
+}
