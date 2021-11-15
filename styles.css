@@ -3,18 +3,23 @@ body{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.assignment{
+.assignments{
     display:flex;
-    padding: 10px;
+    flex-wrap:wrap;
+}
+.assignment{
+    width:30%;
     margin: 10px;
-    background:#698C78 ;
+    padding: 20px 10px;
+    background:#698C78;
 }
 
 .assignment img{
     width: 200px;
-    padding: 5px;
-    margin: 15px;
-    border: 2px solid #698C78 ;
+    margin: 10px;
+    border: 2px solid #698C78;
+    display: block;
+    margin: auto;
 }
 
 .assignment img:hover{
@@ -24,6 +29,14 @@ body{
 h1{
     color:bisque;
     text-align: center;
+}
+
+h1:hover{
+    color:black;
+}
+
+h2{
+    text-align:center;
 }
 
 a{
