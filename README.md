@@ -1,6 +1,10 @@
 # kwyandt.github.io
 Katelyn Wyandt's Personal Portfolio Made with Typescript
 
+# Documentation
+https://v2.tailwindcss.com/docs
+https://www.typescriptlang.org/docs/handbook/react.html
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
