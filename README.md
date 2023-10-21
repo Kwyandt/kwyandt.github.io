@@ -2,7 +2,7 @@
 Katelyn Wyandt's Personal Portfolio Made with Typescript
 
 # Documentation
-https://v2.tailwindcss.com/docs
+https://v2.tailwindcss.com/docs </br>
 https://www.typescriptlang.org/docs/handbook/react.html
 
 # React + TypeScript + Vite
