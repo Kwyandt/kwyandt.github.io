@@ -2,11 +2,12 @@
 /* import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css' */
+import Navbar from "./components/navbar.tsx";
 
 function App() {
-  /* const [count, setCount] = useState(0) */
-
-  return <div className = "app" > app</div>
+  return <div className = "app"> 
+    <Navbar />
+  </div>;
 }
 
 export default App
