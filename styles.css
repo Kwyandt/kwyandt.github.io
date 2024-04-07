@@ -87,7 +87,9 @@
   
 /* Reset default browser styles */
 body, h1, p {
-    margin: 5%;
+    margin: 1%;
+    margin-left: 2%;
+    margin-right: 2%;
 }
 
 /* Set font and background color for body */
@@ -124,12 +126,110 @@ p {
 .nav-link {
     font-family: 'Caveat', sans-serif;
     font-size: 25px;
-    margin-left: 2%;
+}
+
+.nav-item {
+    margin-right: 5%;
+}
+
+.collapse.navbar-collapse {
+  max-width: 100%;
+  overflow: fit-content;
+  margin-right: 2%;
 }
 
 .buttons-container {
     display: flex;
     justify-content: center;
     margin-top: 2%;
+    font-family: 'Caveat', sans-serif;
+}
+
+/* Styling on full site */
+/* .container {
+  max-width: 100%;
+} */
+
+/* Styling for banner on the home page */
+.header-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Caveat', sans-serif;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.intro-container {
+    align-items: center;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-family: 'Caveat', sans-serif;
+
+}
+
+.btn-primary {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: #fff;
+    color: black;
+    border: solid;
+    height: 60px;
+    width: 300px;
+    border-radius: 10px;
+    font-size:large;
+    margin: 2%;
+    text-decoration: none;
+    flex-wrap: nowrap;
+}
+
+.btn-primary img {
+  margin-left: 10%;
+}
+
+.btn-primary:hover {
+    background-color: white;
+    border-color: purple;
+}
+.btn-text {
+  color: black; 
+  text-decoration: none; 
+  display: flex; 
+  justify-content: 
+  center; 
+  align-items: center;
+  margin: 5%;
+}
+.btn-text:hover {
+  color: purple;
+}
+
+/* Styling for images on home page */
+.current-positions{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 3%;
+    font-family: 'Caveat', sans-serif;
+}
+
+/* Footer Styling */
+.btn {
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    background-color: none;
+    cursor: pointer;
+}
+
+.footer-header {
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
     font-family: 'Caveat', sans-serif;
 }
