@@ -8,3 +8,54 @@ h1 {
     text-align: center;
     color: #6f7bfc;
 }
+
+h1:hover{
+    color:rgb(126, 14, 201);
+    text-decoration: overline underline;
+    text-underline-offset: 5px;
+
+}
+
+h3 {
+    text-align: center;
+    font-style: italic;
+}
+
+.projects{
+    display:flex;
+    flex-wrap:wrap;
+}
+.project{
+    width:30%;
+    margin: 10px;
+    padding: 20px 10px;
+    background:#a4abf8;
+    border-radius: 7%;
+}
+
+.project img{
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    border: 2px solid rgb(126, 14, 201);
+    display: block;
+    margin: auto;
+}
+
+.project img:hover{
+    border: 2px solid white;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(126, 14, 201);
+}
+
+a:hover{
+    color: white;
+}
+
+.project p {
+    text-align: center;
+    margin: 15px;
+}
