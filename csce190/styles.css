@@ -1,3 +1,4 @@
+/* General Styling */
 body{
     background: #f8feff;
     font-family:"Times New Roman", Times, serif;
@@ -15,6 +16,8 @@ h1:hover{
     text-underline-offset: 5px;
 
 }
+
+/* Project Styling */
 
 h3 {
     text-align: center;
@@ -51,11 +54,57 @@ a{
     color: rgb(126, 14, 201);
 }
 
-a:hover{
+.project a:hover{
     color: white;
 }
 
 .project p {
     text-align: center;
     margin: 15px;
+}
+
+/* About Section Styling */
+
+.about{
+    display:flex;
+    flex-wrap:wrap;
+    margin-right: 100px;
+    margin-left: 100px;
+    justify-content: center;
+}
+
+.about img {
+    width: 150px;
+    height: 200px;
+    border-radius: 25%;
+    border: 2px solid rgb(126, 14, 201);
+}
+
+.about p {
+    width:50%;
+    text-align: center;
+    margin: auto;
+    line-height: 125%;
+}
+
+
+/* Skills Section Styling */
+.skills {
+    margin: 40px;
+}
+
+/* Contact Section Styling */
+.contact{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+
+.contact a {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.contact a:hover {
+    text-decoration: underline;
 }
