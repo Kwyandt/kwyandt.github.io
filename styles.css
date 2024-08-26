@@ -1,90 +1,120 @@
-@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Rubik+Mono+One&display=swap');
+/* Font Imports */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik+Mono+One&display=swap');
+.poppins-thin {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.poppins-extralight {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.poppins-extrabold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.poppins-black {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.poppins-thin-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.poppins-extralight-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.poppins-light-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.poppins-regular-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.poppins-medium-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.poppins-semibold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.poppins-bold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.poppins-extrabold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.poppins-black-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+  
+.rubik-mono-one-regular {
+  font-family: "Rubik Mono One", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
 
 
-.ibm-plex sans-thin {
-    font-family: "IBM Plex Sans", sans-serif;
-    font-weight: 100;
-    font-style: normal;
-  }
-  
-  .ibm-plex sans-extralight {
-    font-family: "IBM Plex Sans", sans-serif;
-    font-weight: 200;
-    font-style: normal;
-  }
-  
-  .ibm-plex sans-light {
-    font-family: "IBM Plex Sans", sans-serif;
-    font-weight: 300;
-    font-style: normal;
-  }
-  
-  .ibm-plex sans-regular {
-    font-family: "IBM Plex Sans", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
-  .ibm-plex sans-medium {
-    font-family: "IBM Plex Sans", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-  }
-  
-  .ibm-plex sans-semibold {
-    font-family: "IBM Plex Sans", sans-serif;
-    font-weight: 600;
-    font-style: normal;
-  }
-  
-  .ibm-plex sans-bold {
-    font-family: "IBM Plex Sans", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-  }
-  
-  .ibm-plex sans-thin-italic {
-    font-family: "IBM Plex Sans", sans-serif;
-    font-weight: 100;
-    font-style: italic;
-  }
-  
-  .ibm-plex sans-extralight-italic {
-    font-family: "IBM Plex Sans", sans-serif;
-    font-weight: 200;
-    font-style: italic;
-  }
-  
-  .ibm-plex sans-light-italic {
-    font-family: "IBM Plex Sans", sans-serif;
-    font-weight: 300;
-    font-style: italic;
-  }
-  
-  .ibm-plex sans-regular-italic {
-    font-family: "IBM Plex Sans", sans-serif;
-    font-weight: 400;
-    font-style: italic;
-  }
-  
-  .ibm-plex sans-medium-italic {
-    font-family: "IBM Plex Sans", sans-serif;
-    font-weight: 500;
-    font-style: italic;
-  }
-  
-  .ibm-plex sans-semibold-italic {
-    font-family: "IBM Plex Sans", sans-serif;
-    font-weight: 600;
-    font-style: italic;
-  }
-  
-  .ibm-plex sans-bold-italic {
-    font-family: "IBM Plex Sans", sans-serif;
-    font-weight: 700;
-    font-style: italic;
-  }
-  
 /* Reset default browser styles */
 body, h1, p {
     margin: 1%;
@@ -94,7 +124,7 @@ body, h1, p {
 
 /* Set font and background color for body */
 body {
-    font-family: sans-serif;
+    font-family: "Poppins" , sans-serif;
     background-color: FCFFFB  ;
 }
 
@@ -110,7 +140,7 @@ p {
     font-size: 20px;
     color: #666;
     line-height: 1.5;
-    font-family: 'IBM plex sans', sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 
 /* Styling for nav bar */
@@ -122,15 +152,38 @@ p {
 } 
 
 .nav-link {
-  font-family: sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 25px;
-}
-.navbar-brand {
-  display: flex;
 }
 
 .navbar {
   width: 100%;
+  display: flex;
+  justify-content: space-between; /* Space out the logo and the nav items */
+  align-items: center; /* Center items vertically */
+}
+
+.navbar-nav {
+  display: flex;
+  flex: 1; /* Allow nav items to grow and take up space */
+  justify-content: space-around; /* Distribute nav items evenly */
+  align-items: center; /* Center nav items vertically */
+}
+
+.nav-item {
+  flex: 1; /* Ensure each nav item takes up equal space */
+  text-align: center; /* Center text inside each nav item */
+}
+
+.nav-item :hover {
+  flex: 1; /* Ensure each nav item takes up equal space */
+  text-align: center; /* Center text inside each nav item */
+  border-bottom: 2px solid #DC0707; /* Visible underline on hover */
+  color: #DC0707;
+}
+
+.navbar-brand {
+  margin-right: auto; /* Align the logo to the left */
 }
 
 /* .nav-item {
@@ -160,24 +213,39 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: sans-serif;
+    font-family: "Poppins", sans-serif;
     margin-top: 5%;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 7%;
+    margin-right: 7%;
 }
 
 .section-header {
+  margin: 2%;
   display: flex;
   justify-content: left;
+  color: #DC0707
+}
+
+.section-line {
+  width: 10%;
+  height: 3px !important;
+  margin-right: 2vh;
+  background-color: #DC0707;
+  border: none;
+  opacity: 1;
 }
 
 .intro-container {
-    align-items: center;
-    margin-top: 5%;
-    margin-left: 5%;
-    margin-right: 5%;
-    font-family: sans-serif;
+  display:flex;
+  flex-wrap:wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 10px; /* Optional: add space between the two sections */
+  font-family: "Poppins", sans-serif;
+}
 
+.intro-left, .intro-right {
+  width: 48%; /* Make both sections take up equal space */
 }
 
 /* Styling for highlighted projects */
@@ -192,7 +260,7 @@ p {
 .project{
   width:30%;
   margin: 10px;
-  border-radius: 7%;
+  border-radius: 10%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   overflow: hidden;
 }
@@ -207,20 +275,58 @@ p {
   margin: 5%;
 }
 
-a{
-  text-decoration: none;
-  color: rgb(126, 14, 201);
-}
-
-.project a:hover{
-  color: white;
-}
-
 .project p {
-  text-align: center;
+  text-align: left;
   margin: 15px;
 }
 
+
+.button {
+  display:flex;
+  align-items: center;
+  padding: 2vh; /* Padding scales with the viewport */
+}
+
+.button img {
+  height: 2vh; /* Arrow height scales with viewport height */
+  width: auto;
+  margin-left: 1vw;
+}
+
+.button a:hover{
+  border-bottom: 2px solid #DC0707; /* Visible underline on hover */
+  color: #DC0707;
+}
+
+.btn-text {
+  color: #DC0707;
+  text-decoration: none;
+  font-size: 2.5vh; /* Font size scales with viewport height */
+}
+
+.info {
+  justify-content: center;
+}
+
+.contact-me {
+  text-align: center;
+}
+
+.contact-me p {
+  text-align: left;
+}
+
+.connect-buttons {
+  display: flex;
+  justify-content: center; /* Centers flex items (buttons) horizontally */
+  margin-top: 20px; /* Optional: adds space above the buttons */
+  gap: 20px; /* Space between the buttons */
+}
+
+.connect-buttons .btn img {
+  width: 5vh; /* Adjust size as needed */
+  height: auto;
+}
 
 /* Styling for images on home page */
 

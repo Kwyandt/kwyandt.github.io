@@ -24,7 +24,7 @@
               <nav class="navbar navbar-expand-lg navbar-light">
                   <div class="container">
                       <a class="navbar-brand" href="index.html">
-                          <img src="./images/kat_logo.png" alt="meow" height="60" >
+                          <img src="./images/kat_logo.png" alt="meow" width="75%" >
                       </a>
                     <button class="navbar-toggler" 
                             type="button" 
@@ -59,7 +59,7 @@
 
                 <div class = "header-container">
 
-                  <img src="./images/home_header.png" alt="Home Header">
+                  <img src="./images/home_header.png" alt="Home Header" width = "100%">
 
                   <!-- Uses this after certain media size -->
                   <!-- <div class = "header-text-box">
@@ -72,7 +72,7 @@
 
               <div class = "section-header">
                 <!-- Line seperator -->
-                <hr style="width:20%;text-align:left;margin-left:0">
+                <hr class = "section-line">
 
                 <!-- Text -->
                 <h2>About Me</h2>
@@ -80,30 +80,33 @@
 
               <div class = "intro-container">
 
-                <h1>Katelyn Wyandt</h1>
-
+                <div class = "intro-left">
+                  <h1>Katelyn Wyandt</h1>
                   <div class = "buttons-container">
-                    <button >
+                    <div class = "button">
                       <a href = "./files/Resume_Wyandt.pdf" class = "btn-text">Resume</a>
                       <img src="./images/arrow.svg" alt="Arrow" >
-                    </button>
-                    <button>
-                      <a href = "./pages/about.html" class = "btn-text">Projects</a>
+                    </div>
+                    <div class = "button">
+                      <a href = "./pages/portfolio.html" class = "btn-text">Projects</a>
                       <img src="./images/arrow.svg" alt="Arrow" >
-                    </button>
-                    <button>
-                      <a href = "./pages/about.html" class = "btn-text">Playground</a>
-                      <img src="./images/arrow.svg" alt="Arrow" >
-                    </button>
+                    </div>
+                   <div class = "button">
+                    <a href = "./pages/playground.html" class = "btn-text">Playground</a>
+                    <img src="./images/arrow.svg" alt="Arrow" >
+                   </div>
+                  </div>
+                </div>
 
+                  <div class = "intro-right">
                     <p>Hey! I’m Kat (short for Katelyn) , a computer science student at the University of South Carolina. I’m passionate about improving the human experience and bringing voices to underrepresented communities through technology, education, and inclusive design. </p>
-                    <img src="./images/signature.png" alt="signature" >
+                      <img src="./images/signature.png" alt="signature" >
                 </div>
               </div>
 
               <div class = "section-header">
                 <!-- Line seperator -->
-                <hr style="width:20%;text-align:left;margin-left:0">
+                <hr class = "section-line">
 
                 <!-- Text -->
                 <h2>Highlighted Work</h2>
@@ -119,7 +122,10 @@
                     <p>
                       This is a text section that explains in a lot more detail what i was doing in this project!
                     </p>
-                    <button> Text for a button! </button>
+                    <div class = "button">
+                      <a href = " " class = "btn-text">Text for a button!</a>
+                      <img src="./images/arrow.svg" alt="Arrow" width = "50">
+                    </div>
                   </div>
                 </section>
 
@@ -130,7 +136,10 @@
                     <p>
                       This is a text section that explains in a lot more detail what i was doing in this project!
                     </p>
-                    <button> Text for a button! </button>
+                    <div class = "button">
+                      <a href = " " class = "btn-text">Text for a button!</a>
+                      <img src="./images/arrow.svg" alt="Arrow" >
+                    </div>
                   </div>
                 </section>
 
@@ -141,7 +150,10 @@
                     <p>
                       This is a text section that explains in a lot more detail what i was doing in this project!
                     </p>
-                    <button> Text for a button! </button>
+                    <div class = "button">
+                      <a href = " " class = "btn-text">Text for a button!</a>
+                      <img src="./images/arrow.svg" alt="Arrow" >
+                    </div>
                   </div>
                 </section>
 
@@ -149,31 +161,29 @@
 
               <div class = "section-header">
                 <!-- Line seperator -->
-                <hr style="width:20%;text-align:left;margin-left:0">
+                <hr class = "section-line">
 
                 <!-- Text -->
                 <h2>Contact Me</h2>
               </div>
 
-              <p>Whether it’s to collaborate on new projects, talk about research, or try new foods I love talking with and meeting new people.  Feel free to shoot me an email 
-                <u>(kat.wyandt.812@gmail.com)</u> or check out what I’m up to!
-              </p>
+              <section class="contact-me">
+                <p>Whether it’s to collaborate on new projects, talk about research, or try new foods I love talking with and meeting new people.  Feel free to shoot me an email 
+                  <u>(kat.wyandt.812@gmail.com)</u> or check out what I’m up to!
+                </p>
 
-              <div class = "conntect-buttons">
-                <a href = "./files/Resume_Wyandt.pdf" class = "btn">
-                  <img src="./images/linkedin_icon.png" alt="linkedin" >
-                </a>
-                <a href = "./pages/about.html" class = "btn">
-                  <img src="./images/github_icon.png" alt="github" >
-                </a>
-                <a href = "./files/Resume_Wyandt.pdf" class = "btn">
-                  <img src="./images/email_icon.png" alt="email" >
-                </a>
-              </div>
-
-
-              <p>© 2024 Katelyn Wyandt</p>
-
+                  <div class = "conntect-buttons">
+                    <a href = "https://www.linkedin.com/in/katelyn-wyandt/" class = "btn">
+                      <img src="./images/linkedin_icon.png" alt="linkedin" >
+                    </a>
+                    <a href = "https://github.com/Kwyandt" class = "btn">
+                      <img src="./images/github_icon.png" alt="github" >
+                    </a>
+                    <a href = "mailto:kat.wyandt.812@gmail.com" class = "btn">
+                      <img src="./images/email_icon.png" alt="email" >
+                    </a>
+                  </div>
+            </section>
     </body>
 
           </div>
