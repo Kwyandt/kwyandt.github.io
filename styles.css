@@ -238,7 +238,6 @@ p {
 .intro-container {
   display:flex;
   flex-wrap:wrap;
-  align-items: center;
   justify-content: center;
   gap: 10px; /* Optional: add space between the two sections */
   font-family: "Poppins", sans-serif;
@@ -246,6 +245,7 @@ p {
 
 .intro-left, .intro-right {
   width: 48%; /* Make both sections take up equal space */
+  padding: 2%;
 }
 
 /* Styling for highlighted projects */
@@ -278,6 +278,26 @@ p {
 .project p {
   text-align: left;
   margin: 15px;
+}
+
+/* Project in project section */
+.project-header {
+  display:flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.project-header img {
+  border-radius: 10%;
+  height: 13vh;
+  width: 13vh;
+  margin: 3vh;
+}
+
+.project-header h3 {
+  justify-content: center;
+  align-items: center;
+  vertical-align: center;
 }
 
 
@@ -326,6 +346,19 @@ p {
 .connect-buttons .btn img {
   width: 5vh; /* Adjust size as needed */
   height: auto;
+}
+
+.scroll-projects {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2vh; /* Padding scales with the viewport */
+}
+
+.scroll-projects img {
+  height: 2vh; /* Arrow height scales with viewport height */
+  width: auto;
+  margin-left: 1vw;
 }
 
 /* Styling for images on home page */
