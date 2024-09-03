@@ -389,3 +389,33 @@ p {
   grid-row-end: span var(--card_large);
 }
 
+/* Styling for playground page */
+
+.playground_header {
+  padding: 2%;
+  font-family: "Poppins", sans-serif;
+}
+
+.slide{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.carousel_description {
+  width: 40%; /* Make both sections take up equal space */
+  padding: 2%;
+}
+
+.carousel_image {
+  width: 55%; /* Make both sections take up equal space */
+  padding: 2%;
+}
+
+.carousel_image img {
+  height: 100%;
+  width: 100%;
+  border-radius: var(--card_border_radius);
+}
+
