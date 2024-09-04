@@ -419,3 +419,49 @@ p {
   border-radius: var(--card_border_radius);
 }
 
+/* Styling for Case Studies */
+
+.study-header {
+  padding: 2%;
+  font-family: "Poppins", sans-serif;
+}
+
+.job-titles {
+  display:flex;
+  flex-wrap:wrap;
+  padding: 2%;
+}
+
+.role {
+  width: 25%;
+}
+
+.process-header {
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: center;
+}
+
+.process-text {
+  width: 49%; /* Make both sections take up equal space */
+  padding: 2%;
+}
+
+.process-image {
+  width: 49%; /* Make both sections take up equal space */
+  padding: 2%;
+}
+
+.process-image img {
+  height: 100%;
+  width: 100%;
+  border-radius: var(--card_border_radius);
+}
+
+button {
+  color:#666;
+  text-decoration: underline;
+  background-color: transparent;
+  border: none;
+  font-family: "Poppins", sans-serif;
+}
