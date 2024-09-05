@@ -367,6 +367,7 @@ p {
   padding: 0px;
   margin: 15px 10px;
   border-radius: var(--card_border_radius);
+  overflow:hidden;
 }
 
 .card img {
@@ -377,16 +378,56 @@ p {
   border-radius: var(--card_border_radius);
 }
 
+.img-description {
+  padding: 2%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(18, 18, 18, 0.72);
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity .2s, visibility .2s;
+  /* text-align: center;
+  margin: 0 auto; */
+  text-align: center;
+   /* display: flex; */
+  justify-content: center;
+  align-items: center;
+}
+
+.img-description p {
+  color: #fff;
+}
+
+.card:hover .img-description {
+  visibility: visible;
+  opacity: 1;
+}
+
 .card_small {
   grid-row-end: span var(--card_small);
+}
+
+.card_small .img-description p {
+  margin-top: 20%;
 }
 
 .card_medium {
   grid-row-end: span var(--card_medium);
 }
 
+.card_medium .img-description p {
+  margin-top: 30%;
+}
+
 .card_large {
   grid-row-end: span var(--card_large);
+}
+
+.card_large .img-description p {
+  margin-top: 40%;
 }
 
 /* Styling for playground page */
