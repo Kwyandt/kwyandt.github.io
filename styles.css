@@ -253,6 +253,10 @@ p {
   height: 70vh;
 }
 
+.portfolio {
+  height: 55vh;
+}
+
 .project img{
   width: 100%;
   height: 250px;
