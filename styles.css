@@ -235,17 +235,19 @@ a {
   font-family: "Poppins", sans-serif;
 }
 
-#name {
-  align-items: center;  /* Center buttons horizontally */
-}
 
 .intro-left {
-  width: 33%; /* Make both sections take up equal space */
+  width: 48%; /* Make both sections take up equal space */
   padding: 1%;
   display: flex;
   flex-direction: column;  /* Stack buttons vertically */
   gap: 10px;  /* Add space between buttons */
   padding: 2%;
+}
+
+#name {
+  align-items: center;  /* Center buttons horizontally */
+  width: 33%;
 }
 
 .button {
@@ -259,8 +261,12 @@ a {
 }
 
 .intro-right {
-  width: 66%;
+  width: 50%;
   padding: 1%;
+}
+
+#about-me{
+  width: 66%
 }
 
 .intro-right img {
@@ -482,7 +488,7 @@ a {
 /* Styling for playground page */
 
 .playground_header {
-  padding: 2%;
+  padding: 3%;
   font-family: "Poppins", sans-serif;
 }
 
@@ -560,22 +566,22 @@ button {
 @media (max-width: 800px) {
   :root {
     --card_width: 90%;
-    --card_border_radius: 16px;
+    --card_border_radius: 8px;
     --row_increment: 10px;
-    --card_small: 26;
-    --card_medium: 33;
-    --card_large: 45;
+    --card_small: 35;
+    --card_medium: 35;
+    --card_large: 35;
   }
   #header{
     height: 50px;
     width: auto;
   }
   h1 {
-    font-size: 25px;
+    font-size: 21px;
   }
 
   p {
-    font-size: 12px;
+    font-size: 16px;
   }
 
   #name{
