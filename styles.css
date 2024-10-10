@@ -261,12 +261,12 @@ a {
 }
 
 .intro-right {
-  width: 50%;
+  width: 48%;
   padding: 1%;
 }
 
 #about-me{
-  width: 66%
+  width: 66%;
 }
 
 .intro-right img {
@@ -592,6 +592,10 @@ button {
     width: 90%;
   }
 
+  #about-me{
+    width: 90%;
+  }
+
   .intro-right{
     width: 90%;
   }
@@ -628,5 +632,9 @@ button {
 
   .carousel_image{
     width: 90%;
+  }
+
+  .playground_header{
+    padding: 6%;
   }
 }
