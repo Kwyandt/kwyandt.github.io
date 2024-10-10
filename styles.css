@@ -152,6 +152,10 @@ p {
     font-family: "Poppins", sans-serif;
 }
 
+a {
+  color:#DC0707;
+}
+
 
 /* Styling for nav bar */
 
@@ -231,12 +235,15 @@ p {
   font-family: "Poppins", sans-serif;
 }
 
+#name {
+  align-items: center;  /* Center buttons horizontally */
+}
+
 .intro-left {
   width: 33%; /* Make both sections take up equal space */
   padding: 1%;
   display: flex;
   flex-direction: column;  /* Stack buttons vertically */
-  align-items: center;  /* Center buttons horizontally */
   gap: 10px;  /* Add space between buttons */
   padding: 2%;
 }
@@ -373,6 +380,10 @@ p {
 .connect-buttons .btn img {
   width: 5vh; /* Adjust size as needed */
   height: auto;
+}
+
+.resume {
+  display: none;
 }
 
 /* Styling for projects section  */
@@ -567,8 +578,12 @@ button {
     font-size: 12px;
   }
 
-  .intro-left{
+  #name{
     width: 100%;
+  }
+
+  .intro-left{
+    width: 90%;
   }
 
   .intro-right{
@@ -584,6 +599,10 @@ button {
     display: none;
   }
 
+  .resume{
+    display: block;
+  }
+
   .project {
     width: 90%;
   }
@@ -595,5 +614,13 @@ button {
   .conntect-buttons img{
     width: 2rem;
     height: auto;
+  }
+
+  .carousel_description{
+    width: 90%;
+  }
+
+  .carousel_image{
+    width: 90%;
   }
 }
