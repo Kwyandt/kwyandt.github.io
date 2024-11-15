@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Kat's Memo</title>
+      <link rel="icon" href="../favicon.ico"> 
+      <!-- Required meta tags -->
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+
+      <!--Bootstrap CSS -->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+      
+      <!-- Personal CSS -->
+      <link rel="stylesheet" href="../styles.css">
+  </head>
+
+  <body>
+    
+    <div class = "main-container">
+      <div class = "header">
+        <!-- Nav Bar Start -->
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <div class="container">
+              <a class="navbar-brand" href="../index.html">
+                  <img src="../images/kat_logo.png" id = "header" alt="meow" width="75%" >
+              </a>
+            <button class="navbar-toggler" 
+                    type="button" 
+                    data-bs-toggle="collapse" 
+                    data-bs-target="#navbarSupportedContent" 
+                    aria-controls="navbarSupportedContent" 
+                    aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mt-2 mt-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link" href="../index.html">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../pages/projects.html">Projects</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../pages/playground.html">Playground</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="mailto:kat.wyandt.812@gmail.com">
+                    Let's Talk!
+                    <img src="../images/arrow.svg" alt="Arrow" >
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+       <!-- Gallery Section -->
+
+       <div class="project_container">
+        <div class="card card_small">
+          <img src="../images/filler_1.jpg">
+          <div class="img-description">
+            <p>Chinatown, Montreal
+              <br>
+              2024
+            </p>
+          </div>
+          
+        </div>
+        <div class="card card_medium">
+          <img src="../images/filler_2.jpg">
+          <div class="img-description">
+            <p>Bar Harbor, Maine
+              <br>
+              2024
+            </p>
+          </div>
+        </div>
+        <div class="card card_large">
+          <img src="../images/filler_3.jpg">
+          <div class="img-description">
+            <p>Cape Elizabeth, Maine
+              <br>
+              2024
+            </p>
+          </div>
+        </div>
+        <div class="card card_medium">
+          <img src="../images/filler_4.jpg">
+          <div class="img-description">
+            <p>Cape Elizabeth, Maine
+              <br>
+              2024
+            </p>
+          </div>
+        </div>
+        <div class="card card_small">
+          <img src="../images/filler_5.jpg">
+          <div class="img-description">
+            <p>Quebec City, Quebec
+              <br>
+              2024
+            </p>
+          </div>
+        </div>
+      </div>
+
+        <div class = "scroll-projects">
+            <!-- <p>Back to prev page</p> -->
+            <button onclick="history.back()">Back to Previous Page</button>
+        </div>
+
+      </div>
+    </div>
+  </body>
+
+  <!-- Final script file for bootstrap, should always be before close body tag -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  
+</html>

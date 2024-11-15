@@ -299,7 +299,7 @@ a {
 }
 
 .portfolio {
-  height: 55vh;
+  height: 50vh;
 }
 
 .project img{
@@ -422,11 +422,13 @@ a {
   margin: 15px 10px;
   border-radius: var(--card_border_radius);
   overflow:hidden;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .card img {
   overflow: hidden;
   display: block;
+  object-fit: cover;
   max-width: 100%;
   height: 100%;  
   border-radius: var(--card_border_radius);
